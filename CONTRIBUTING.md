@@ -8,7 +8,7 @@ This guide mainly focuses on steps to be followed to submit an issue.
 ### 1. Before opening an issue
 
 To report a bug/request please file an issue in the right repository
-(example for [fp-sns-stbox1](https://github.com/STMicroelectronics/fp-atr-ble1/issues/new/choose)).
+(example for [fp-atr-ble1](https://github.com/STMicroelectronics/fp-atr-ble1/issues/new/choose)).
 
 
 Please check the following boxes before posting an issue:
