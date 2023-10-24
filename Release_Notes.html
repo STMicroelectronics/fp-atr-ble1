@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Release Notes for FP-ATR-BLE1 STM32Cube Function Pack</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="_htmresc/mini-st.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="icon" type="image/x-icon" href="../_htmresc/favicon.png" />
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12 col-lg-4">
+<center>
+<h1 id="release-notes-for-fp-atr-ble1-software-for-stm32"><small>Release Notes for</small> <strong>FP-ATR-BLE1 Software for STM32</strong></h1>
+<p>Copyright © 2023 STMicroelectronics<br />
+</p>
+<a href="https://www.st.com" class="logo"><img src="_htmresc/st_logo_2020.png" alt="ST logo" /></a>
+</center>
+<h1 id="purpose">Purpose</h1>
+<p>The <strong>FP-ATR-BLE1</strong> is STM32Cube function pack function pack for asset tracking using BLE&amp;NFC connectivity for SensorTile.box PRO discovery box The purpose of this functional pack is to provide simple asset tracking application for STEVAL-MKBOXPRO Pro that could be controlled by Bluetooth and NFC connectivity.</p>
+<p>The expansion is built on STM32Cube software technology to ease portability across different STM32 microcontrollers.</p>
+<h1 id="fp-atr-ble1-software-features">FP-ATR-BLE1 software features:</h1>
+<ul>
+<li>Complete example application to develop node with BLE&amp;NFC connectivity, environmental and motion sensors, and perform real-time Tracking sensor monitor</li>
+<li>Firmware compatible with ST Asset Tracking applications for Android/iOS controlling and reading the tracking log</li>
+<li>Firmware compatible with ST BLE Sensor applications for Android/iOS for firmware update over the Air (FoTA)</li>
+<li>Easy portability across different MCU families, thanks to STM32Cube</li>
+<li>Free, user-friendly license terms</li>
+</ul>
+<p>This firmware package includes Components Device Drivers, Board Support Package and example application for the STMicroelectronics:</p>
+<ul>
+<li><p>STEVAL-MKBOXPRO (SensorTile.box-Pro) evaluation board that contains the following components:</p>
+<ul>
+<li><p>MEMS sensor devices: STTS22H, LPS22DF, LSM6DSV16X, LIS2DU12, LIS2MDL</p></li>
+<li><p>Dynamic NFC tag: ST25DV04K</p></li>
+<li><p>Digital Microphone: MP23db01HP</p></li>
+<li><p>BlueNRG-LP Bluetooth Low Energy System On Chip</p></li>
+</ul></li>
+</ul>
+<p>The figure below shows the overall architecture: <img src="_htmresc/FP-ATR-BLE1_Software_Architecture.png" /></p>
+<p>Here is the list of references to user documents:</p>
+<ul>
+<li><a href="https://www.st.com/en/embedded-software/fp-atr-ble1.html#documentation">FP-ATR-BLE1</a> : Data Brief, User Manual and Quick Start Guide</li>
+<li><a href="http://www.st.com/stm32cube">STM32Cube</a> : STM32Cube</li>
+<li><a href="http://www.st.com/stm32nucleo">STM32 Nucleo boards</a> : STM32 Nucleo boards</li>
+</ul>
+</div>
+<div class="col-sm-12 col-lg-8">
+<h1 id="update-history">Update History</h1>
+<div class="collapse">
+<input type="checkbox" id="collapse-section2" checked aria-hidden="true"> <label for="collapse-section2" aria-hidden="true">V2.1.0 / 05-October-2023</label>
+<div>
+<h2 id="main-changes">Main Changes</h2>
+<h3 id="product-update-release">Product Update release</h3>
+<ul>
+<li>Added support to AutoDiscovery of NFC component</li>
+<li>Bug Fix</li>
+</ul>
+<h2 id="contents">Contents</h2>
+<p>The components flagged by “<span class="icon-st-update"></span>” have changed since the previous release. “<span class="icon-st-add"></span>” are new.</p>
+<table>
+<caption>Documentation<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FP-ATR-BLE1_STM32U585AI-SensorTile.boxPro Doxygen documentation</td>
+<td style="text-align: left;">2.1.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Documentation\FP-ATR-BLE1_STM32U585AI-SensorTile.boxPro.chm">CHM</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Projects<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">STM32U585AI-SensorTile.boxPro/Applications/ATR_BLE</td>
+<td style="text-align: left;">2.1.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Projects/STM32U585AI-SensorTile.boxPro/Applications/ATR_BLE/readme.html">Read Me</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Middlewares<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BlueNRG-LP</td>
+<td style="text-align: left;">1.3.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Middlewares\ST\BlueNRG-LP\Release_Notes.html">Release Note</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BLE_Manager Lib</td>
+<td style="text-align: left;">1.9.1 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Middlewares\ST\STM32_BLE_Manager\Release_Notes.html">Release Note</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PnPLCompManager Lib</td>
+<td style="text-align: left;">2.0.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Middlewares\ST\PnPLCompManager\Release_Notes.html">Release Note</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">parson</td>
+<td style="text-align: left;">1.5.2 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Middlewares\Third_Party\parson\Release_Notes.html">Release Note</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Drivers<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">STM32U5xx CMSIS</td>
+<td style="text-align: left;">1.3.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Drivers\CMSIS\Device\ST\STM32U5xx\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">STM32U5xx HAL</td>
+<td style="text-align: left;">1.3.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Drivers\STM32U5xx_HAL_Driver\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BSP SensorTileBoxPro</td>
+<td style="text-align: left;">1.1.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\SensorTileBoxPro\Release_Notes.html">release notes</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Components<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">lis2mdl</td>
+<td style="text-align: left;">1.6.0</td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis2mdl\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stc3115</td>
+<td style="text-align: left;">1.1.0</td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\stc3115\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lis2du12</td>
+<td style="text-align: left;">1.2.0 <span class="icon-st-update"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis2du12\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lps22df</td>
+<td style="text-align: left;">1.2.0</td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lps22df\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lsm6dsv16x</td>
+<td style="text-align: left;">1.3.0</td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lsm6dsv16x\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stts22h</td>
+<td style="text-align: left;">1.4.0</td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\stts22h\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ST25DV</td>
+<td style="text-align: left;">2.0.2</td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\ST25DV\Release_Notes.html">release notes</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="known-limitations">Known Limitations</h2>
+<p>None</p>
+<h2 id="development-toolchains-and-compilers">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V9.20.1 + STLink/V3</li>
+<li>RealView Microcontroller Development Kit (MDK-ARM) toolchain V5.37.0 + STLink/V3</li>
+<li>STM32CubeIDE Integrated Development Environment for STM32 V1.13.2 STLink/V3</li>
+</ul>
+<h2 id="supported-devices-and-boards">Supported Devices and Boards</h2>
+<ul>
+<li>SensorTileBoxPro discovery box with multi-sensors and wireless connectivity [<a href="https://www.st.com/en/evaluation-tools/steval-mkboxpro.html">STEVAL-MKBOXPRO</a>]</li>
+</ul>
+<h2 id="backward-compatibility">Backward Compatibility</h2>
+<p>None</p>
+<h2 id="dependencies">Dependencies</h2>
+<p>This software release is compatible with:</p>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.st.assetTracking"><strong>ST Asset Tracking Android application</strong></a> V3.4.0 (or higher)</li>
+<li><a href="https://apps.apple.com/it/app/st-asset-tracking/id1483734401"><strong>ST Asset Tracking iOS application</strong></a> V3.4.0 (or higher)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.st.bluems"><strong>ST BLE Sensor Android application</strong></a> V5.0.0 (or higher)</li>
+<li><a href="https://apps.apple.com/it/app/st-ble-sensor/id993670214"><strong>ST BLE Sensor iOS application</strong></a> V5.0.0 (or higher)</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section2" aria-hidden="true"> <label for="collapse-section2" aria-hidden="true">V2.0.0 / 27-March-2023</label>
+<div>
+<h2 id="main-changes-1">Main Changes</h2>
+<h3 id="product-update-release-1">Product Update release</h3>
+<ul>
+<li>Added support for SensorTile.box-Pro evaluation board</li>
+<li>Removed support for SensorTile.box evaluation board</li>
+<li>Added the capability to control the Tracking using NFC connectivity</li>
+<li>Added the capability to read the Maximum&amp;Minium samples values</li>
+<li>Added the capability to make Firmware Over the Air Update (FoTA)</li>
+</ul>
+<h2 id="contents-1">Contents</h2>
+<p>The components flagged by “<span class="icon-st-update"></span>” have changed since the previous release. “<span class="icon-st-add"></span>” are new.</p>
+<table>
+<caption>Documentation<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FP-ATR-BLE1_STM32U585AI-SensorTile.boxPro Doxygen documentation 2.0.</td>
+<td style="text-align: left;">0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Documentation\FP-ATR-BLE1_STM32U585AI-SensorTile.boxPro.chm">CHM</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Projects<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">STM32U585AI-SensorTile.boxPro/Applications/ATR_BLE</td>
+<td style="text-align: left;">1.2.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Projects/STM32U585AI-SensorTile.boxPro/Applications/ATR_BLE/readme.html">Read Me</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Middlewares<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BlueNRG-LP</td>
+<td style="text-align: left;">1.2.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Middlewares\ST\BlueNRG-LP\Release_Notes.html">Release Note</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BLE_Manager Lib</td>
+<td style="text-align: left;">1.8.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Middlewares\ST\STM32_BLE_Manager\Release_Notes.html">Release Note</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">parson</td>
+<td style="text-align: left;">1.3.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Middlewares\Third_Party\parson\Release_Notes.html">Release Note</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Drivers<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">STM32U5xx CMSIS</td>
+<td style="text-align: left;">1.1.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\CMSIS\Device\ST\STM32U5xx\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">STM32U5xx HAL</td>
+<td style="text-align: left;">1.1.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\STM32U5xx_HAL_Driver\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BSP SensorTileBoxPro</td>
+<td style="text-align: left;">1.0.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\SensorTileBoxPro\Release_Notes.html">release notes</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Components<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">lis2mdl</td>
+<td style="text-align: left;">1.6.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis2mdl\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stc3115</td>
+<td style="text-align: left;">1.1.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\stc3115\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lis2du12</td>
+<td style="text-align: left;">1.1.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis2du12\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lps22df</td>
+<td style="text-align: left;">1.2.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lps22df\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lsm6dsv16x</td>
+<td style="text-align: left;">1.3.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lsm6dsv16x\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stts22h</td>
+<td style="text-align: left;">1.4.0 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\stts22h\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ST25DV</td>
+<td style="text-align: left;">2.0.2 <span class="icon-st-add"></span></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\ST25DV\Release_Notes.html">release notes</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="known-limitations-1">Known Limitations</h2>
+<p>None</p>
+<h2 id="development-toolchains-and-compilers-1">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V9.20.1 + STLink/V3</li>
+<li>RealView Microcontroller Development Kit (MDK-ARM) toolchain V5.37.0 + STLink/V3</li>
+<li>STM32CubeIDE Integrated Development Environment for STM32 V1.12.0 STLink/V3</li>
+</ul>
+<h2 id="supported-devices-and-boards-1">Supported Devices and Boards</h2>
+<ul>
+<li>SensorTileBoxPro discovery box with multi-sensors and wireless connectivity [<a href="https://www.st.com/en/evaluation-tools/steval-mkboxpro.html">STEVAL-MKBOXPRO</a>]</li>
+</ul>
+<h2 id="backward-compatibility-1">Backward Compatibility</h2>
+<p>None</p>
+<h2 id="dependencies-1">Dependencies</h2>
+<p>This software release is compatible with:</p>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.st.assetTracking"><strong>ST Asset Tracking Android application</strong></a> V3.4.0 (or higher)</li>
+<li><a href="https://apps.apple.com/it/app/st-asset-tracking/id1483734401"><strong>ST Asset Tracking iOS application</strong></a> V3.4.0 (or higher)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.st.bluems"><strong>ST BLE Sensor Android application</strong></a> V4.19.0 (or higher)</li>
+<li><a href="https://apps.apple.com/it/app/st-ble-sensor/id993670214"><strong>ST BLE Sensor iOS application</strong></a> V4.19.0 (or higher)</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section1" aria-hidden="true"> <label for="collapse-section1" aria-hidden="true">V1.0.0 / 20-February-2020</label>
+<div>
+<h2 id="main-changes-2">Main Changes</h2>
+<h3 id="first-release">First release</h3>
+<p>First Release of FP-ATR-BLE1 STM32Cube Function Pack for BLE Asset Tracking on SensorTile.box (STEVAL-MKS1BOX1) Pro Mode</p>
+<h2 id="contents-2">Contents</h2>
+<table>
+<caption>Documentation<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">License</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FP-ATR-BLE1 Doxygen documentation</td>
+<td style="text-align: left;">1.0.0</td>
+<td style="text-align: left;"><a href="https://www.st.com/content/st_com/en/search.html#q=SLA0055-t=resources-page=1">SLA0055</a></td>
+<td style="text-align: left;"><a href="Documentation\FP-ATR-BLE1.chm">CHM</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Projects<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">License</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ATR_BLE</td>
+<td style="text-align: left;">1.0.0</td>
+<td style="text-align: left;"><a href="https://www.st.com/content/st_com/en/search.html#q=SLA0055-t=resources-page=1">SLA0055</a></td>
+<td style="text-align: left;"><a href="Projects/STM32L4R9ZI-SensorTile.box/Applications/ATR_BLE/readme.txt">Read Me</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Middlewares<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">License</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FreeRTOS</td>
+<td style="text-align: left;">10.2.1</td>
+<td style="text-align: left;"><a href="Middlewares\Third_Party\FreeRTOS\License\license.txt">MIT</a></td>
+<td style="text-align: left;"><a href="Middlewares\Third_Party\FreeRTOS\Source\st_readme.txt">Read Me</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FatFS</td>
+<td style="text-align: left;">0.12c</td>
+<td style="text-align: left;"><a href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a></td>
+<td style="text-align: left;"><a href="Middlewares\Third_Party\FatFs\src\st_readme.txt">Read Me</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BlueNRG-1/2</td>
+<td style="text-align: left;">1.1.0</td>
+<td style="text-align: left;"><a href="https://www.st.com/resource/en/license_agreement/dm00279991.pdf">SLA0068</a></td>
+<td style="text-align: left;"><a href="Middlewares\ST\BlueNRG-2\Release_Notes.html">Release Note</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MetaDataManger</td>
+<td style="text-align: left;">1.0.0</td>
+<td style="text-align: left;"><a href="https://www.st.com/resource/en/license_agreement/dm00279991.pdf">SLA0068</a></td>
+<td style="text-align: left;"><a href="Middlewares\ST\STM32_MetaDataManager\Release_Notes.html">Release Note</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Drivers<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">License</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">STM32L4xx CMSIS</td>
+<td style="text-align: left;">1.6.0</td>
+<td style="text-align: left;"><a href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a></td>
+<td style="text-align: left;"><a href="Drivers\CMSIS\Device\ST\STM32L4xx\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">STM32L4xx HAL</td>
+<td style="text-align: left;">1.11.0</td>
+<td style="text-align: left;"><a href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a></td>
+<td style="text-align: left;"><a href="Drivers\STM32L4xx_HAL_Driver\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BSP SensorTile.box</td>
+<td style="text-align: left;">1.3.2</td>
+<td style="text-align: left;"><a href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\SensorTile.box\Release_Notes.html">release notes</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Components<br />
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Version</th>
+<th style="text-align: left;">License</th>
+<th style="text-align: left;">Document</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">stts751</td>
+<td style="text-align: left;">1.0.1</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\stts751\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lsm6dsox</td>
+<td style="text-align: left;">1.2.1</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lsm6dsox\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lps22hh</td>
+<td style="text-align: left;">1.1.1</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lps22hh\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lis3dhh</td>
+<td style="text-align: left;">1.0.0</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis3dhh\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lis2mdl</td>
+<td style="text-align: left;">1.2.1</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis2mdl\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lis2dw12</td>
+<td style="text-align: left;">1.1.2</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\lis2dw12\Release_Notes.html">release notes</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hts221</td>
+<td style="text-align: left;">5.2.2</td>
+<td style="text-align: left;"><a href="http://www.st.com/software_license_agreement_liberty_v2">MCD-ST Liberty V2</a></td>
+<td style="text-align: left;"><a href="Drivers\BSP\Components\hts221\Release_Notes.html">release notes</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="known-limitations-2">Known Limitations</h2>
+<p>With some Android phones there are some compatibility issues for using the PIN for BLE security connection.</p>
+<h2 id="development-toolchains-and-compilers-2">Development Toolchains and Compilers</h2>
+<ul>
+<li>IAR Embedded Workbench for ARM (EWARM) toolchain V8.32.3 + STLink/V2</li>
+<li>RealView Microcontroller Development Kit (MDK-ARM) toolchain V5.27.1 + ST-LINK/V2</li>
+<li>STM32CubeIDE Integrated Development Environment for STM32 V1.2.1 + ST-LINK/V2</li>
+</ul>
+<h2 id="supported-devices-and-boards-2">Supported Devices and Boards</h2>
+<ul>
+<li>SensorTile.box wireless multi sensor development Rev3 [<a href="https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mems-motion-sensor-eval-boards/steval-mksbox1v1.html">STEVAL-MKS1BOX1</a>]</li>
+</ul>
+<h2 id="backward-compatibility-2">Backward Compatibility</h2>
+<p>None</p>
+<h2 id="dependencies-2">Dependencies</h2>
+<p>This software release is compatible with:</p>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.st.assetTracking"><strong>ST Asset Tracking Android application</strong></a> V2.0.0</li>
+<li><a href="https://apps.apple.com/it/app/st-asset-tracking/id1483734401"><strong>ST Asset Tracking iOS application</strong></a> V2.0.0</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<footer class="sticky">
+<p>For complete documentation on <strong>FP-ATR-BLE</strong> , visit: <a href="https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-atr-ble1.html">www.st.com</a></p>
+This release note uses up to date web standards and, for this reason, should not be opened with Internet Explorer but preferably with popular browsers such as Google Chrome, Mozilla Firefox, Opera or Microsoft Edge.
+</footer>
+</body>
+</html>
