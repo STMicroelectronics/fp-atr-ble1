@@ -2,6 +2,9 @@
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/fp-atr-ble1.svg?color=brightgreen)
 
+> [!NOTE]
+>## FP-ATR-BLE1 Function Pack is now deprecated and this repository is not maintained anymore.
+
 The FP-ATR-BLE1 is STM32Cube Function Pack for SensorTile.box PRO discovery box with multi-sensors and wireless connectivity (STEVAL-MKBOXPRO) 
 The purpose of this functional pack is to provide simple asset tracking application for STEVAL-MKBOXPRO Pro that could be controlled by Bluetooth and NFC connectivity.
 
